@@ -6,6 +6,9 @@ import { showAccountById } from "./routes/account/account-by-id";
 import { showBankById } from "./routes/bank/get-bank-by-id";
 import { postBankById } from "./routes/bank/post-bank-by-id";
 import { deleteBankById } from "./routes/bank/delete-bank-by-id";
+import { createAccount } from "./routes/account/account-create";
+import { deleteAccount } from "./routes/account/account-delete";
+import { updateAccount } from "./routes/account/account-update-by-id";
 
 // Configure env vars in env file
 require('dotenv').config();
@@ -18,6 +21,9 @@ app.use(bodyParser.json());
 app.use(showAllAccountsRouter)
 app.use(showAccountById);
 app.use(showAccountTradingById);
+app.use(createAccount);
+app.use(deleteAccount);
+app.use(updateAccount);
 
 // Bank
 app.use(showBankById);
