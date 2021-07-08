@@ -1,5 +1,3 @@
-# AssetMe
-
 ## What is AssetMe
 There are multiple ways to invest your money. You can invest in stocks, options, and ETFs. You can also use some modern services that will invest the money for you, usually done by other hedge funds. As an experienced trader, you may want more capital to trade or even become a popular investor. You can do this by using AssetMe. Your trades and overall income will be shown to all users of the platform. People can also invest in you as a trader to help them make their money. Essentially, this platform allows any individual investor to become investable, where any number of people can invest in your trades so they get a cut. This should be a win-win situation for both the trader and the people who invest in the trader, and it is up to the trader to set the percentage they would keep from the invested money. There are many ways to make money from this from both ends of the platform. 
 
@@ -23,4 +21,4 @@ There are multiple ways to invest your money. You can invest in stocks, options,
 - Achieve Legal Compliance
 
 ## Big Picture Diagrams
-big-picture.png![big-picture](https://user-images.githubusercontent.com/10646691/125003682-b630df00-e025-11eb-9711-c5d49e214ed7.png)
+[big-picture](https://user-images.githubusercontent.com/10646691/125003682-b630df00-e025-11eb-9711-c5d49e214ed7.png)
