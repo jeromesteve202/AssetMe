@@ -21,4 +21,5 @@ There are multiple ways to invest your money. You can invest in stocks, options,
 - Achieve Legal Compliance
 
 ## Big Picture Diagrams
-[big-picture](https://user-images.githubusercontent.com/10646691/125003682-b630df00-e025-11eb-9711-c5d49e214ed7.png)
+big-picture.png![big-picture](https://user-images.githubusercontent.com/10646691/125003815-0f007780-e026-11eb-88fb-29dae1ca5562.png)
+profit.png![profit](https://user-images.githubusercontent.com/10646691/125003824-1293fe80-e026-11eb-99b5-9d4e89abbe86.png)
