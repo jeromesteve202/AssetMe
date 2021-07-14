@@ -3,7 +3,7 @@ const request = require('request');
 
 const router = express.Router();
 
-router.patch('/accounts/:id', (req: Request, res: Response) => {
+router.patch('/api/accounts/:id', (req: Request, res: Response) => {
 
   const options = {
     url: `https://broker-api.sandbox.alpaca.markets/v1/accounts/${req.params.id}`,

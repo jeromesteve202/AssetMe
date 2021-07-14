@@ -3,7 +3,7 @@ const request = require('request');
 
 const router = express.Router();
 
-router.get('/accounts', (req: Request, res: Response) => {
+router.get('/api/accounts', (req: Request, res: Response) => {
   const options = {
     url: 'https://broker-api.sandbox.alpaca.markets/v1/accounts/',
     method: 'GET',

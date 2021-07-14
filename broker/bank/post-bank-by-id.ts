@@ -3,7 +3,7 @@ const request = require('request');
 
 const router = express.Router();
 
-router.post('/bank/accounts/:id', (req: Request, res: Response) => {
+router.post('/api/bank/accounts/:id', (req: Request, res: Response) => {
   const { name, bank_code_type, bank_code, account_number } = req.body;
 
   const options = {
