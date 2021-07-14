@@ -3,7 +3,7 @@ const request = require('request');
 
 const router = express.Router();
 
-router.delete('/api/bank/accounts/:user_id/bank/:bank_id', (req: Request, res: Response) => {
+router.delete('/api/broker/bank/accounts/:user_id/bank/:bank_id', (req: Request, res: Response) => {
   const options = {
     url: `https://broker-api.sandbox.alpaca.markets/v1/accounts/${req.params.user_id}/recipient_banks/${req.params.bank_id}`,
     method: 'DELETE',
