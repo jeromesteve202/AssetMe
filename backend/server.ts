@@ -1,14 +1,14 @@
 import express from "express";
 
-import { showAllAccountsRouter } from "./routes/account/accounts-all";
-import { showAccountTradingById } from "./routes/account/account-trading-id";
-import { showAccountById } from "./routes/account/account-by-id";
-import { showBankById } from "./routes/bank/get-bank-by-id";
-import { postBankById } from "./routes/bank/post-bank-by-id";
-import { deleteBankById } from "./routes/bank/delete-bank-by-id";
-import { createAccount } from "./routes/account/account-create";
-import { deleteAccount } from "./routes/account/account-delete";
-import { updateAccount } from "./routes/account/account-update-by-id";
+import { showAllAccountsRouter } from "./broker/account/accounts-all";
+import { showAccountTradingById } from "./broker/account/account-trading-id";
+import { showAccountById } from "./broker/account/account-by-id";
+import { showBankById } from "./broker/bank/get-bank-by-id";
+import { postBankById } from "./broker/bank/post-bank-by-id";
+import { deleteBankById } from "./broker/bank/delete-bank-by-id";
+import { createAccount } from "./broker/account/account-create";
+import { deleteAccount } from "./broker/account/account-delete";
+import { updateAccount } from "./broker/account/account-update-by-id";
 
 // Configure env vars in env file
 require('dotenv').config();
