@@ -2,7 +2,8 @@
   "name": "auth",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index",
+  "typings": "dist/index",
   "scripts": {
     "start": "ts-node-dev src/index.ts",
     "test": "jest --watchAll --no-cache"
@@ -28,7 +29,7 @@
     "express-async-errors": "^3.1.1",
     "express-validator": "^6.9.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "5.10.19",
+    "mongoose": "^5.13.3",
     "ts-node-dev": "^1.1.1",
     "typescript": "^4.1.3"
   },
